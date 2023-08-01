@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import { navLinks } from "../../Data";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
-import NavLink from "./NavLink";
+import NavLinked from "./NavLinked";
 import { motion } from "framer-motion";
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
+
   useEffect(() => {
     const scrollActive = () => {
       setActive(window.scrollY > 20);
@@ -37,12 +39,14 @@ const Navbar = () => {
           </div>
           <div className="sm:flex items-center hidden">
             {navLinks.map((navLink) => {
-              return <NavLink key={navLink.id} {...navLink} />;
+              return <NavLinked key={navLink.id} {...navLink} />;
             })}
           </div>
+
           <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
             Sign Up
           </button>
+
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}

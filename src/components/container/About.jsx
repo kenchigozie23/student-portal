@@ -14,10 +14,9 @@ const About = () => {
             <span className="text-Teal">online courses</span>
           </div>
           <p className="text-sm text-gray leading-7 mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-            eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-            doloremque aliquam pariatur recusandae.
+          As a Software Developer, I'm here to help provide an amazing learning experience for students on Skillex, the leading global marketplace for teaching and learning online.
+
+My role is to assist learners in any way I can. I can provide recommendations on courses, answer questions about our platform and courses, help with technical issues, and guide you to useful resources. My knowledge comes from the Skillex team's training based on real customer conversations and the latest AI techniques.
           </p>
           <button className="py-3 px-6 text-sm border border-solid border-gray rounded-lg font-bold">
             Know More

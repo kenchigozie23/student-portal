@@ -19,8 +19,7 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Get Started</div>
           <p className="text-sm leading-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
-            saepe cumque. Veritatis sunt commodi
+          If you want to receive email updates or newsletters from Skillex education website Subscribe or Sign Up
           </p>
         </div>
         <div>
